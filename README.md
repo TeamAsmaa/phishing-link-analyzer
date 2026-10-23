@@ -2,7 +2,7 @@
 
 Paste in a suspicious message, and this tool pulls out every link and checks each one against VirusTotal. You get a short report with a verdict per URL and an overall risk level for the whole message.
 
-It uses Gemini (through LangChain) to find the links, and VirusTotal to judge them. The LLM never decides what's safe or malicious, it only extracts. The security call comes from VirusTotal's data.
+It uses Gemini (through LangChain) to find the links, and VirusTotal to judge them. The LLM never decides what's safe or malicious, it only extracts. The security call comes from VirusTotal's data. 
 
 ## How it works
 
